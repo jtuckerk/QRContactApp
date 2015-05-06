@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1927AE3D1AFAD57700E1462F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1927AE3C1AFAD57700E1462F /* AppDelegate.swift */; };
+		1927AE3F1AFAD57700E1462F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1927AE3E1AFAD57700E1462F /* ViewController.swift */; };
+		1927AE421AFAD57700E1462F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1927AE401AFAD57700E1462F /* Main.storyboard */; };
+		1927AE441AFAD57700E1462F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1927AE431AFAD57700E1462F /* Images.xcassets */; };
+		1927AE471AFAD57700E1462F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1927AE451AFAD57700E1462F /* LaunchScreen.xib */; };
+		1927AE531AFAD57800E1462F /* EliasContactAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1927AE521AFAD57800E1462F /* EliasContactAppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1927AE4D1AFAD57800E1462F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1927AE2F1AFAD57700E1462F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1927AE361AFAD57700E1462F;
+			remoteInfo = EliasContactApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1927AE371AFAD57700E1462F /* EliasContactApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EliasContactApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1927AE3B1AFAD57700E1462F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1927AE3C1AFAD57700E1462F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1927AE3E1AFAD57700E1462F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1927AE411AFAD57700E1462F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1927AE431AFAD57700E1462F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1927AE461AFAD57700E1462F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1927AE4C1AFAD57800E1462F /* EliasContactAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EliasContactAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1927AE511AFAD57800E1462F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1927AE521AFAD57800E1462F /* EliasContactAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EliasContactAppTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1927AE341AFAD57700E1462F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1927AE491AFAD57800E1462F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1927AE2E1AFAD57700E1462F = {
+			isa = PBXGroup;
+			children = (
+				1927AE391AFAD57700E1462F /* EliasContactApp */,
+				1927AE4F1AFAD57800E1462F /* EliasContactAppTests */,
+				1927AE381AFAD57700E1462F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1927AE381AFAD57700E1462F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1927AE371AFAD57700E1462F /* EliasContactApp.app */,
+				1927AE4C1AFAD57800E1462F /* EliasContactAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1927AE391AFAD57700E1462F /* EliasContactApp */ = {
+			isa = PBXGroup;
+			children = (
+				1927AE3C1AFAD57700E1462F /* AppDelegate.swift */,
+				1927AE3E1AFAD57700E1462F /* ViewController.swift */,
+				1927AE401AFAD57700E1462F /* Main.storyboard */,
+				1927AE431AFAD57700E1462F /* Images.xcassets */,
+				1927AE451AFAD57700E1462F /* LaunchScreen.xib */,
+				1927AE3A1AFAD57700E1462F /* Supporting Files */,
+			);
+			path = EliasContactApp;
+			sourceTree = "<group>";
+		};
+		1927AE3A1AFAD57700E1462F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1927AE3B1AFAD57700E1462F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1927AE4F1AFAD57800E1462F /* EliasContactAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				1927AE521AFAD57800E1462F /* EliasContactAppTests.swift */,
+				1927AE501AFAD57800E1462F /* Supporting Files */,
+			);
+			path = EliasContactAppTests;
+			sourceTree = "<group>";
+		};
+		1927AE501AFAD57800E1462F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1927AE511AFAD57800E1462F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1927AE361AFAD57700E1462F /* EliasContactApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1927AE561AFAD57800E1462F /* Build configuration list for PBXNativeTarget "EliasContactApp" */;
+			buildPhases = (
+				1927AE331AFAD57700E1462F /* Sources */,
+				1927AE341AFAD57700E1462F /* Frameworks */,
+				1927AE351AFAD57700E1462F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EliasContactApp;
+			productName = EliasContactApp;
+			productReference = 1927AE371AFAD57700E1462F /* EliasContactApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1927AE4B1AFAD57800E1462F /* EliasContactAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1927AE591AFAD57800E1462F /* Build configuration list for PBXNativeTarget "EliasContactAppTests" */;
+			buildPhases = (
+				1927AE481AFAD57800E1462F /* Sources */,
+				1927AE491AFAD57800E1462F /* Frameworks */,
+				1927AE4A1AFAD57800E1462F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1927AE4E1AFAD57800E1462F /* PBXTargetDependency */,
+			);
+			name = EliasContactAppTests;
+			productName = EliasContactAppTests;
+			productReference = 1927AE4C1AFAD57800E1462F /* EliasContactAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1927AE2F1AFAD57700E1462F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Tucker Kirven";
+				TargetAttributes = {
+					1927AE361AFAD57700E1462F = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					1927AE4B1AFAD57800E1462F = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 1927AE361AFAD57700E1462F;
+					};
+				};
+			};
+			buildConfigurationList = 1927AE321AFAD57700E1462F /* Build configuration list for PBXProject "EliasContactApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1927AE2E1AFAD57700E1462F;
+			productRefGroup = 1927AE381AFAD57700E1462F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1927AE361AFAD57700E1462F /* EliasContactApp */,
+				1927AE4B1AFAD57800E1462F /* EliasContactAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1927AE351AFAD57700E1462F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1927AE421AFAD57700E1462F /* Main.storyboard in Resources */,
+				1927AE471AFAD57700E1462F /* LaunchScreen.xib in Resources */,
+				1927AE441AFAD57700E1462F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1927AE4A1AFAD57800E1462F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1927AE331AFAD57700E1462F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1927AE3F1AFAD57700E1462F /* ViewController.swift in Sources */,
+				1927AE3D1AFAD57700E1462F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1927AE481AFAD57800E1462F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1927AE531AFAD57800E1462F /* EliasContactAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1927AE4E1AFAD57800E1462F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1927AE361AFAD57700E1462F /* EliasContactApp */;
+			targetProxy = 1927AE4D1AFAD57800E1462F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1927AE401AFAD57700E1462F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1927AE411AFAD57700E1462F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1927AE451AFAD57700E1462F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1927AE461AFAD57700E1462F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1927AE541AFAD57800E1462F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1927AE551AFAD57800E1462F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1927AE571AFAD57800E1462F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EliasContactApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1927AE581AFAD57800E1462F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EliasContactApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1927AE5A1AFAD57800E1462F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EliasContactAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EliasContactApp.app/EliasContactApp";
+			};
+			name = Debug;
+		};
+		1927AE5B1AFAD57800E1462F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EliasContactAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EliasContactApp.app/EliasContactApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1927AE321AFAD57700E1462F /* Build configuration list for PBXProject "EliasContactApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1927AE541AFAD57800E1462F /* Debug */,
+				1927AE551AFAD57800E1462F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1927AE561AFAD57800E1462F /* Build configuration list for PBXNativeTarget "EliasContactApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1927AE571AFAD57800E1462F /* Debug */,
+				1927AE581AFAD57800E1462F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1927AE591AFAD57800E1462F /* Build configuration list for PBXNativeTarget "EliasContactAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1927AE5A1AFAD57800E1462F /* Debug */,
+				1927AE5B1AFAD57800E1462F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1927AE2F1AFAD57700E1462F /* Project object */;
+}
