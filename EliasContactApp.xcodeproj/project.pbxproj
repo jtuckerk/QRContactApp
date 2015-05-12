@@ -13,6 +13,30 @@
 		1927AE441AFAD57700E1462F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1927AE431AFAD57700E1462F /* Images.xcassets */; };
 		1927AE471AFAD57700E1462F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1927AE451AFAD57700E1462F /* LaunchScreen.xib */; };
 		1927AE531AFAD57800E1462F /* EliasContactAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1927AE521AFAD57800E1462F /* EliasContactAppTests.swift */; };
+		1927AE7D1AFAECBD00E1462F /* CIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1927AE7A1AFAECBD00E1462F /* CIColorExtension.swift */; };
+		1927AE7E1AFAECBD00E1462F /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1927AE7B1AFAECBD00E1462F /* QRCode.swift */; };
+		1927AE7F1AFAECBD00E1462F /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1927AE7C1AFAECBD00E1462F /* UIImageViewExtension.swift */; };
+		1927AE831AFAF2F000E1462F /* LSContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1927AE821AFAF2F000E1462F /* LSContact.swift */; };
+		1927AE891AFAF4E200E1462F /* JSONStringify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1927AE861AFAF4E200E1462F /* JSONStringify.swift */; };
+		1927AE8A1AFAF4E200E1462F /* JSONParseArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1927AE871AFAF4E200E1462F /* JSONParseArray.swift */; };
+		1927AE8B1AFAF4E200E1462F /* JSONParseDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1927AE881AFAF4E200E1462F /* JSONParseDictionary.swift */; };
+		1927AE911AFB039100E1462F /* MyInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1927AE901AFB039100E1462F /* MyInfoViewController.swift */; };
+		1927AE951AFBD9EF00E1462F /* QRReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1927AE941AFBD9EF00E1462F /* QRReaderViewController.swift */; };
+		1927AE971AFBE1B500E1462F /* LSSavedContacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1927AE961AFBE1B500E1462F /* LSSavedContacts.swift */; };
+		1927AE991AFC053900E1462F /* MyContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1927AE981AFC053900E1462F /* MyContactsViewController.swift */; };
+		1927AE9C1AFC2B5D00E1462F /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1927AE9A1AFC2B5D00E1462F /* ContactViewController.swift */; };
+		1927AE9D1AFC2B5D00E1462F /* ContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1927AE9B1AFC2B5D00E1462F /* ContactViewController.xib */; };
+		19B38BB81B013F770068A225 /* NewAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B38BB61B013F770068A225 /* NewAccountVC.swift */; };
+		19B38BB91B013F770068A225 /* NewAccountVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19B38BB71B013F770068A225 /* NewAccountVC.xib */; };
+		19B38BBB1B014E870068A225 /* ios7-person-outline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B38BBA1B014E870068A225 /* ios7-person-outline@2x.png */; };
+		19B38BBD1B0152B30068A225 /* android-user-menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B38BBC1B0152B30068A225 /* android-user-menu@2x.png */; };
+		19B38BBF1B0152C40068A225 /* ios7-people-outline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B38BBE1B0152C40068A225 /* ios7-people-outline@2x.png */; };
+		19B38BC11B0152ED0068A225 /* qr-scanner@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B38BC01B0152ED0068A225 /* qr-scanner@2x.png */; };
+		19B38BC41B01878D0068A225 /* CustomCellVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B38BC21B01878D0068A225 /* CustomCellVC.swift */; };
+		19B38BC71B01910E0068A225 /* InvisibleHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B38BC61B01910E0068A225 /* InvisibleHeader.swift */; };
+		19B38BCA1B01A50D0068A225 /* CustTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B38BC81B01A50D0068A225 /* CustTableViewCell.swift */; };
+		19B38BCB1B01A50D0068A225 /* CustTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19B38BC91B01A50D0068A225 /* CustTableViewCell.xib */; };
+		19B38BCD1B01AC6D0068A225 /* custCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19B38BCC1B01AC6D0068A225 /* custCell2.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +60,30 @@
 		1927AE4C1AFAD57800E1462F /* EliasContactAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EliasContactAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1927AE511AFAD57800E1462F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1927AE521AFAD57800E1462F /* EliasContactAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EliasContactAppTests.swift; sourceTree = "<group>"; };
+		1927AE7A1AFAECBD00E1462F /* CIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIColorExtension.swift; sourceTree = "<group>"; };
+		1927AE7B1AFAECBD00E1462F /* QRCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCode.swift; sourceTree = "<group>"; };
+		1927AE7C1AFAECBD00E1462F /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		1927AE821AFAF2F000E1462F /* LSContact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LSContact.swift; path = ../LSContact.swift; sourceTree = "<group>"; };
+		1927AE861AFAF4E200E1462F /* JSONStringify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONStringify.swift; sourceTree = "<group>"; };
+		1927AE871AFAF4E200E1462F /* JSONParseArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONParseArray.swift; sourceTree = "<group>"; };
+		1927AE881AFAF4E200E1462F /* JSONParseDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONParseDictionary.swift; sourceTree = "<group>"; };
+		1927AE901AFB039100E1462F /* MyInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyInfoViewController.swift; sourceTree = "<group>"; };
+		1927AE941AFBD9EF00E1462F /* QRReaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRReaderViewController.swift; sourceTree = "<group>"; };
+		1927AE961AFBE1B500E1462F /* LSSavedContacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSSavedContacts.swift; sourceTree = "<group>"; };
+		1927AE981AFC053900E1462F /* MyContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyContactsViewController.swift; sourceTree = "<group>"; };
+		1927AE9A1AFC2B5D00E1462F /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		1927AE9B1AFC2B5D00E1462F /* ContactViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactViewController.xib; sourceTree = "<group>"; };
+		19B38BB61B013F770068A225 /* NewAccountVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewAccountVC.swift; path = ../NewAccountVC.swift; sourceTree = "<group>"; };
+		19B38BB71B013F770068A225 /* NewAccountVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NewAccountVC.xib; path = ../NewAccountVC.xib; sourceTree = "<group>"; };
+		19B38BBA1B014E870068A225 /* ios7-person-outline@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ios7-person-outline@2x.png"; sourceTree = "<group>"; };
+		19B38BBC1B0152B30068A225 /* android-user-menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "android-user-menu@2x.png"; sourceTree = "<group>"; };
+		19B38BBE1B0152C40068A225 /* ios7-people-outline@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ios7-people-outline@2x.png"; sourceTree = "<group>"; };
+		19B38BC01B0152ED0068A225 /* qr-scanner@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qr-scanner@2x.png"; sourceTree = "<group>"; };
+		19B38BC21B01878D0068A225 /* CustomCellVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCellVC.swift; sourceTree = "<group>"; };
+		19B38BC61B01910E0068A225 /* InvisibleHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvisibleHeader.swift; sourceTree = "<group>"; };
+		19B38BC81B01A50D0068A225 /* CustTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustTableViewCell.swift; sourceTree = "<group>"; };
+		19B38BC91B01A50D0068A225 /* CustTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustTableViewCell.xib; sourceTree = "<group>"; };
+		19B38BCC1B01AC6D0068A225 /* custCell2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = custCell2.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +107,8 @@
 		1927AE2E1AFAD57700E1462F = {
 			isa = PBXGroup;
 			children = (
+				19B38BC81B01A50D0068A225 /* CustTableViewCell.swift */,
+				19B38BC91B01A50D0068A225 /* CustTableViewCell.xib */,
 				1927AE391AFAD57700E1462F /* EliasContactApp */,
 				1927AE4F1AFAD57800E1462F /* EliasContactAppTests */,
 				1927AE381AFAD57700E1462F /* Products */,
@@ -77,9 +127,21 @@
 		1927AE391AFAD57700E1462F /* EliasContactApp */ = {
 			isa = PBXGroup;
 			children = (
+				19B38BB61B013F770068A225 /* NewAccountVC.swift */,
+				19B38BB71B013F770068A225 /* NewAccountVC.xib */,
+				1927AE821AFAF2F000E1462F /* LSContact.swift */,
 				1927AE3C1AFAD57700E1462F /* AppDelegate.swift */,
 				1927AE3E1AFAD57700E1462F /* ViewController.swift */,
 				1927AE401AFAD57700E1462F /* Main.storyboard */,
+				19B38BC61B01910E0068A225 /* InvisibleHeader.swift */,
+				1927AE981AFC053900E1462F /* MyContactsViewController.swift */,
+				1927AE9A1AFC2B5D00E1462F /* ContactViewController.swift */,
+				1927AE9B1AFC2B5D00E1462F /* ContactViewController.xib */,
+				1927AE941AFBD9EF00E1462F /* QRReaderViewController.swift */,
+				1927AE961AFBE1B500E1462F /* LSSavedContacts.swift */,
+				1927AE901AFB039100E1462F /* MyInfoViewController.swift */,
+				19B38BC21B01878D0068A225 /* CustomCellVC.swift */,
+				19B38BCC1B01AC6D0068A225 /* custCell2.xib */,
 				1927AE431AFAD57700E1462F /* Images.xcassets */,
 				1927AE451AFAD57700E1462F /* LaunchScreen.xib */,
 				1927AE3A1AFAD57700E1462F /* Supporting Files */,
@@ -90,6 +152,12 @@
 		1927AE3A1AFAD57700E1462F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				19B38BC01B0152ED0068A225 /* qr-scanner@2x.png */,
+				19B38BBE1B0152C40068A225 /* ios7-people-outline@2x.png */,
+				19B38BBC1B0152B30068A225 /* android-user-menu@2x.png */,
+				19B38BBA1B014E870068A225 /* ios7-person-outline@2x.png */,
+				1927AE851AFAF4AE00E1462F /* JSON */,
+				1927AE841AFAF49C00E1462F /* QRencode */,
 				1927AE3B1AFAD57700E1462F /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -110,6 +178,26 @@
 				1927AE511AFAD57800E1462F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1927AE841AFAF49C00E1462F /* QRencode */ = {
+			isa = PBXGroup;
+			children = (
+				1927AE7A1AFAECBD00E1462F /* CIColorExtension.swift */,
+				1927AE7B1AFAECBD00E1462F /* QRCode.swift */,
+				1927AE7C1AFAECBD00E1462F /* UIImageViewExtension.swift */,
+			);
+			name = QRencode;
+			sourceTree = "<group>";
+		};
+		1927AE851AFAF4AE00E1462F /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				1927AE861AFAF4E200E1462F /* JSONStringify.swift */,
+				1927AE871AFAF4E200E1462F /* JSONParseArray.swift */,
+				1927AE881AFAF4E200E1462F /* JSONParseDictionary.swift */,
+			);
+			name = JSON;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,8 +281,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				1927AE421AFAD57700E1462F /* Main.storyboard in Resources */,
+				19B38BCB1B01A50D0068A225 /* CustTableViewCell.xib in Resources */,
+				1927AE9D1AFC2B5D00E1462F /* ContactViewController.xib in Resources */,
+				19B38BB91B013F770068A225 /* NewAccountVC.xib in Resources */,
+				19B38BBF1B0152C40068A225 /* ios7-people-outline@2x.png in Resources */,
+				19B38BBD1B0152B30068A225 /* android-user-menu@2x.png in Resources */,
+				19B38BC11B0152ED0068A225 /* qr-scanner@2x.png in Resources */,
 				1927AE471AFAD57700E1462F /* LaunchScreen.xib in Resources */,
+				19B38BBB1B014E870068A225 /* ios7-person-outline@2x.png in Resources */,
 				1927AE441AFAD57700E1462F /* Images.xcassets in Resources */,
+				19B38BCD1B01AC6D0068A225 /* custCell2.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +308,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1927AE8B1AFAF4E200E1462F /* JSONParseDictionary.swift in Sources */,
+				19B38BC71B01910E0068A225 /* InvisibleHeader.swift in Sources */,
+				19B38BC41B01878D0068A225 /* CustomCellVC.swift in Sources */,
+				1927AE891AFAF4E200E1462F /* JSONStringify.swift in Sources */,
+				1927AE911AFB039100E1462F /* MyInfoViewController.swift in Sources */,
+				1927AE7F1AFAECBD00E1462F /* UIImageViewExtension.swift in Sources */,
 				1927AE3F1AFAD57700E1462F /* ViewController.swift in Sources */,
+				1927AE991AFC053900E1462F /* MyContactsViewController.swift in Sources */,
+				1927AE8A1AFAF4E200E1462F /* JSONParseArray.swift in Sources */,
+				1927AE7E1AFAECBD00E1462F /* QRCode.swift in Sources */,
+				1927AE951AFBD9EF00E1462F /* QRReaderViewController.swift in Sources */,
+				1927AE831AFAF2F000E1462F /* LSContact.swift in Sources */,
 				1927AE3D1AFAD57700E1462F /* AppDelegate.swift in Sources */,
+				1927AE971AFBE1B500E1462F /* LSSavedContacts.swift in Sources */,
+				19B38BCA1B01A50D0068A225 /* CustTableViewCell.swift in Sources */,
+				19B38BB81B013F770068A225 /* NewAccountVC.swift in Sources */,
+				1927AE7D1AFAECBD00E1462F /* CIColorExtension.swift in Sources */,
+				1927AE9C1AFC2B5D00E1462F /* ContactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +519,7 @@
 				1927AE581AFAD57800E1462F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1927AE591AFAD57800E1462F /* Build configuration list for PBXNativeTarget "EliasContactAppTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +528,7 @@
 				1927AE5B1AFAD57800E1462F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -12,10 +12,13 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var myContact: LSContact?
+    var contactList = LSSavedContacts()
+    var contactMade: Bool = false
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        myContact = LSContact(FaceBook: "", Twitter: "", Snapchat: "", Instagram: "", LinkedIn: "", PrimaryEmail: "", SecondaryEmail: "")
         return true
     }
 
