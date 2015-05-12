@@ -34,8 +34,6 @@
 		19B38BC11B0152ED0068A225 /* qr-scanner@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B38BC01B0152ED0068A225 /* qr-scanner@2x.png */; };
 		19B38BC41B01878D0068A225 /* CustomCellVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B38BC21B01878D0068A225 /* CustomCellVC.swift */; };
 		19B38BC71B01910E0068A225 /* InvisibleHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B38BC61B01910E0068A225 /* InvisibleHeader.swift */; };
-		19B38BCA1B01A50D0068A225 /* CustTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B38BC81B01A50D0068A225 /* CustTableViewCell.swift */; };
-		19B38BCB1B01A50D0068A225 /* CustTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19B38BC91B01A50D0068A225 /* CustTableViewCell.xib */; };
 		19B38BCD1B01AC6D0068A225 /* custCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19B38BCC1B01AC6D0068A225 /* custCell2.xib */; };
 /* End PBXBuildFile section */
 
@@ -81,8 +79,6 @@
 		19B38BC01B0152ED0068A225 /* qr-scanner@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qr-scanner@2x.png"; sourceTree = "<group>"; };
 		19B38BC21B01878D0068A225 /* CustomCellVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCellVC.swift; sourceTree = "<group>"; };
 		19B38BC61B01910E0068A225 /* InvisibleHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvisibleHeader.swift; sourceTree = "<group>"; };
-		19B38BC81B01A50D0068A225 /* CustTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustTableViewCell.swift; sourceTree = "<group>"; };
-		19B38BC91B01A50D0068A225 /* CustTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustTableViewCell.xib; sourceTree = "<group>"; };
 		19B38BCC1B01AC6D0068A225 /* custCell2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = custCell2.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,8 +103,6 @@
 		1927AE2E1AFAD57700E1462F = {
 			isa = PBXGroup;
 			children = (
-				19B38BC81B01A50D0068A225 /* CustTableViewCell.swift */,
-				19B38BC91B01A50D0068A225 /* CustTableViewCell.xib */,
 				1927AE391AFAD57700E1462F /* EliasContactApp */,
 				1927AE4F1AFAD57800E1462F /* EliasContactAppTests */,
 				1927AE381AFAD57700E1462F /* Products */,
@@ -127,21 +121,9 @@
 		1927AE391AFAD57700E1462F /* EliasContactApp */ = {
 			isa = PBXGroup;
 			children = (
-				19B38BB61B013F770068A225 /* NewAccountVC.swift */,
-				19B38BB71B013F770068A225 /* NewAccountVC.xib */,
-				1927AE821AFAF2F000E1462F /* LSContact.swift */,
 				1927AE3C1AFAD57700E1462F /* AppDelegate.swift */,
-				1927AE3E1AFAD57700E1462F /* ViewController.swift */,
-				1927AE401AFAD57700E1462F /* Main.storyboard */,
-				19B38BC61B01910E0068A225 /* InvisibleHeader.swift */,
-				1927AE981AFC053900E1462F /* MyContactsViewController.swift */,
-				1927AE9A1AFC2B5D00E1462F /* ContactViewController.swift */,
-				1927AE9B1AFC2B5D00E1462F /* ContactViewController.xib */,
-				1927AE941AFBD9EF00E1462F /* QRReaderViewController.swift */,
-				1927AE961AFBE1B500E1462F /* LSSavedContacts.swift */,
-				1927AE901AFB039100E1462F /* MyInfoViewController.swift */,
-				19B38BC21B01878D0068A225 /* CustomCellVC.swift */,
-				19B38BCC1B01AC6D0068A225 /* custCell2.xib */,
+				19B38BCF1B01B46C0068A225 /* Model */,
+				19B38BCE1B01B43B0068A225 /* Views and ViewControllers */,
 				1927AE431AFAD57700E1462F /* Images.xcassets */,
 				1927AE451AFAD57700E1462F /* LaunchScreen.xib */,
 				1927AE3A1AFAD57700E1462F /* Supporting Files */,
@@ -198,6 +180,34 @@
 				1927AE881AFAF4E200E1462F /* JSONParseDictionary.swift */,
 			);
 			name = JSON;
+			sourceTree = "<group>";
+		};
+		19B38BCE1B01B43B0068A225 /* Views and ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1927AE941AFBD9EF00E1462F /* QRReaderViewController.swift */,
+				1927AE901AFB039100E1462F /* MyInfoViewController.swift */,
+				19B38BC21B01878D0068A225 /* CustomCellVC.swift */,
+				19B38BCC1B01AC6D0068A225 /* custCell2.xib */,
+				1927AE9A1AFC2B5D00E1462F /* ContactViewController.swift */,
+				1927AE9B1AFC2B5D00E1462F /* ContactViewController.xib */,
+				1927AE401AFAD57700E1462F /* Main.storyboard */,
+				1927AE3E1AFAD57700E1462F /* ViewController.swift */,
+				19B38BB61B013F770068A225 /* NewAccountVC.swift */,
+				19B38BB71B013F770068A225 /* NewAccountVC.xib */,
+				19B38BC61B01910E0068A225 /* InvisibleHeader.swift */,
+				1927AE981AFC053900E1462F /* MyContactsViewController.swift */,
+			);
+			name = "Views and ViewControllers";
+			sourceTree = "<group>";
+		};
+		19B38BCF1B01B46C0068A225 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1927AE821AFAF2F000E1462F /* LSContact.swift */,
+				1927AE961AFBE1B500E1462F /* LSSavedContacts.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,7 +291,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1927AE421AFAD57700E1462F /* Main.storyboard in Resources */,
-				19B38BCB1B01A50D0068A225 /* CustTableViewCell.xib in Resources */,
 				1927AE9D1AFC2B5D00E1462F /* ContactViewController.xib in Resources */,
 				19B38BB91B013F770068A225 /* NewAccountVC.xib in Resources */,
 				19B38BBF1B0152C40068A225 /* ios7-people-outline@2x.png in Resources */,
@@ -322,7 +331,6 @@
 				1927AE831AFAF2F000E1462F /* LSContact.swift in Sources */,
 				1927AE3D1AFAD57700E1462F /* AppDelegate.swift in Sources */,
 				1927AE971AFBE1B500E1462F /* LSSavedContacts.swift in Sources */,
-				19B38BCA1B01A50D0068A225 /* CustTableViewCell.swift in Sources */,
 				19B38BB81B013F770068A225 /* NewAccountVC.swift in Sources */,
 				1927AE7D1AFAECBD00E1462F /* CIColorExtension.swift in Sources */,
 				1927AE9C1AFC2B5D00E1462F /* ContactViewController.swift in Sources */,
